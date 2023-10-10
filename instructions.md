@@ -65,6 +65,7 @@ Congratulations on completing Sprint 2 of the boot camp! For the final phase, we
     - Implement hooks like useEffect to call specific web APIs and fetch information for your projects.
       - A. Creating Internal JSON FILE
         - Consider establishing a project.json file that encompasses all pertinent details regarding your projects. This file can serve as a local database, holding various pieces of information like project names, descriptions, images, and links. Utilizing this file, you can employ fetch or import within your React component to access and display your project details on your website without requiring an external API call. Ensure that the JSON structure is consistent and easy to map through to extract and display the project details efficiently on your website.
+        - We have left you a sample json file called `projects.json` for you to review.
       - B. Leveraging the GitHub API
         - Utilise the GitHub API to fetch your public projects from your GitHub account.
         - Use the following URL link [**<https://api.github.com/users/YourGitHubProfile/repos**>] as an example. Replace "YourGitHubProfile" with your actual GitHub profile name to fetch your repository data.
