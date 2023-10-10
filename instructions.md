@@ -68,7 +68,7 @@ Congratulations on completing Sprint 2 of the boot camp! For the final phase, we
         - We have left you a sample json file called `projects.json` for you to review.
       - B. Leveraging the GitHub API
         - Utilise the GitHub API to fetch your public projects from your GitHub account.
-        - Use the following URL link [**<https://api.github.com/users/YourGitHubProfile/repos**>] as an example. Replace "YourGitHubProfile" with your actual GitHub profile name to fetch your repository data.
+        - Use the following URL link [<https://api.github.com/users/YourGitHubProfile/repos>] as an example. Replace "YourGitHubProfile" with your actual GitHub profile name to fetch your repository data.
         - [Open this link to see how the array of objects belonging to the Technigo Profile looks like from Github](https://api.github.com/users/Technigo/repos) 😉
         - ⚠️ HINT ⚠️ - Leverage the GitHub API to fetch project descriptions dynamically, ensuring your portfolio stays up-to-date and reflects your latest work effortlessly. So remember to go back to each one of your projects and fill out the description section of your repo.
         - Parse the API response to extract relevant information about your projects, such as projects, project names, descriptions, and links.
