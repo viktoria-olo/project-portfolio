@@ -14,7 +14,7 @@ We want you to practise following a design strictly, this is normally how the wo
 
 If you work as a designer and really hate our design you could pitch to us why you would make a better job, and hand in your own design file for us to evaluate. But otherwise, this design comes from an experienced designer in collaboration with the expertise from a recruiter that knows what recruiters look at.
 
-### The portfolio should contain:
+### Requirements:
 
 -   A picture of you.
 -   A presentation of the tech skills that you have.
