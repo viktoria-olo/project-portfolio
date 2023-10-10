@@ -62,7 +62,7 @@ Congratulations on completing Sprint 2 of the boot camp! For the final phase, we
     - Harness the power of React hooks, specifically the useState hook, to manage reactive data within your portfolio.
     - Use useState to handle stateful data, making your website interactive and dynamic.
 3.  Web APIs and Data Integration:
-    - Implement hooks like useEffect to call specific web APIs and fetch information for your projects.
+    - Implement hooks like useEffect to call specific Internal JSON objects contanining info about your projects or use Github's free web API and fetch information for your projects.
       - A. Creating Internal JSON FILE
         - Consider establishing a project.json file that encompasses all pertinent details regarding your projects. This file can serve as a local database, holding various pieces of information like project names, descriptions, images, and links. Utilizing this file, you can employ fetch or import within your React component to access and display your project details on your website without requiring an external API call. Ensure that the JSON structure is consistent and easy to map through to extract and display the project details efficiently on your website.
         - We have left you a sample json file called `projects.json` for you to review.
