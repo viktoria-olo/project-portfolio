@@ -6,99 +6,87 @@ The portfolio will be a great test of your React, HTML and CSS skills but we wil
 
 <img src="https://github.com/Technigo/project-portfolio/blob/main/Preview-PortfolioWebDev-Technigo.png" alt="" />
 
-We've created a portfolio design for you that you should follow. You are free to change the colours and images to fit you and, of course, all the content. If you have any written articles or blog posts that you feel are relevant, there's a section for that in the portfolio. If you don't have that (yet), feel free to leave that part out.
+We've created a [portfolio design](https://www.figma.com/file/GUByP4duSTxExaCmyGgkgu/Web-Dev-Portfolio-Fall-2023?type=design&node-id=1862-60&mode=design&t=5DKqa7jEsKZvlEQq-0) for you that you should follow. You are free to change:
 
-We want you to practise following a design strictly; this is normally the workflow for a frontend developer to work together with a designer who provides a design file (on Figma) for you to translate into code.
+- the colours (find inspiration on [ColorHunt](https://colorhunt.co/) or [Adobe](https://color.adobe.com/create/color-wheel/))
+- the images
+- and, of course, all the content
+
+If you have any written articles or blog posts that you consider relevant, there's a section for that in the portfolio. If you don't have that (yet), feel free to leave that part out.
+
+We want you to practise following a design strictly. This is normally how the workflow is for a Frontend Developer: to work together with a designer who provides a design file (in Figma) for you to translate into code.
 
 If you work as a designer and really hate our design, you could pitch to us why you would do a better job and hand in your own design file for us to evaluate. But otherwise, this design comes from an experienced designer in collaboration with the expertise of a recruiter who knows what recruiters look at.
 
-### Requirements:
+## Content guide
 
-- A picture of you.
-- A presentation of the tech skills that you have.
-- A presentation of your projects linking to GitHub and Netlify.
-- A presentation of some thoughts that you have around code.
-- A clear way to get in contact with you.
+### **Top section**
 
-### Test your website 👷🏻‍♂️
+This is where you sell in your new self. You're happy to combine your previous experience with your new Frontend skills or use this area to describe yourself and how you see your future role. Either you do something like "Web dev + design" or more of a sentence like; "Web developer with a background in communications". Or if you don't see yourself as a Frontend Developer in the future, maybe you want to write something like; "Project manager with coding skills". It's your portfolio. Add a photo of yourself and summarise what you have been doing in the past and what you want to do in the future. This gives the reader an idea of who you are. Keep it short and personal. 
 
-A big part of this project is testing your page to make it work well for all the most used browsers and people with disabilities.
+### **Tech section**
 
-1\. Cross-browser testing
+Give a short summary/name-dropping of all the technologies, tools, libraries and things you know and will learn during this course.
 
-You should make sure that your page looks and functions like you would want in the following web browsers:
+### **Featured projects**
 
-- Google Chrome
-- Firefox
-- Microsoft Edge
-- (optional Safari for Mac users)
+Mention the projects you are most proud of here; feel free to add all of them! The more, the merrier at the beginning of your developer career. Make sure to mention all technologies, libraries or APIs you have used. Don't feel like you are repeating yourself. As a recruiter looking for a React developer – the more React is mentioned – the better. If you have other code projects unrelated to this course, feel free to add them, too. For every project, add a link to the GitHub repo and a link to the deployed page, where the project can be viewed live. Add a thumbnail image that shows your project and a short summary of what the project is about.
 
-If you're on a Mac or Linux computer, you can download Edge [here](https://www.microsoft.com/en-us/edge).
+### **My words**
 
-Follow the [Workflow for cross-browser testing](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Introduction) when testing your sites.
+Presenting yourself and your thoughts about programming, career change, remote work, and bootcamping can be extremely helpful for recruiters to gain insight into what you're up to. It can be a great way to show off your knowledge and skills - and that you reflect on it.
 
-2\. Accessibility testing
+During the career coaching program, you will be asked to post reflections on LinkedIn connected to the different topics covered in the bootcamp, this is an excellent opportunity to showcase your reflections to future employers. You can leave this empty for now and return to it when you have progressed further in the career coaching program. You can also include reflections that you have posted on social media in this section if you have done so.
 
-The next step is to make sure your webpage works well for people with disabilities. You should follow each step on the [Accessibility testing checklist](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Accessibility) at the bottom of the page and make adjustments for those errors that you find. Feel free to discuss in Slack what you find and how to solve some issues.
+### **Skills**
 
-When you publish your website, you can use the built-in screen reader on your phone for the screen reader test. Google that, to see how to turn it on for your phone.
+Place ALL your skills here. Feel free to add tech skills that are not in the course but things you have knowledge of from before. In the other columns, place everything that you think will be useful for a tech job. Softwares that you know, methodologies, leadership frameworks and basically whatever. 
 
-### Stretch goals
+### **Time to talk**
 
-- Optimize your website for sharing on social media using og:tags.
-- Give your portfolio a custom domain and connect to your deployed site. [Read more](https://docs.netlify.com/domains-https/custom-domains/).
+Make it super clear how a person can contact you. Again, add the social media links that *you* are using. 
+
+## Tips on how to work with this project
+
+- Begin with forking and cloning the repo as usual. Since there is no starter code this week, you must create it by utilising [Vite](https://www.notion.so/Vite-15cd27c673d14033a1aae2d63dd37b04?pvs=21) → `npm create vite@latest my-portfolio --template`
+- Before starting the coding, consider what components you need and break the design into reusable and manageable pieces. Has your team already created some components during the team session? Great—use them!
+- Consider how you will get the data, e.g. the projects and articles. Do you want to go with JSON files all the way (see `projects.json` as an example), or do you want to go with the stretch goal that uses the GitHub API to get all projects?
+- When picking colours, remember to consider accessibility so that the contrast is sufficient.
+- Remember that your portfolio will continue to evolve and grow as you progress in your coding journey. Happy coding!
+
+### A tip about the icons
+
+To use the icons from the design, simply mark the icon you want to export and save it as an SVG or copy the code and make it into a component.
+
+![ezgif.com-video-to-gif.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/5fa017c8-3fef-4115-8b2f-0177cad64ebc/454c9efe-8e85-4d1e-82d6-9e0192ddf7cb/ezgif.com-video-to-gif.gif)
+
+## Requirements
+
+- Your portfolio should have components and props
+- Your portfolio should contain:
+    - A picture of you.
+    - A presentation of your tech skills.
+    - A presentation of your projects linking to GitHub and Netlify.
+    - A presentation of some thoughts that you have around code.
+    - A clear way to get in contact with you.
+- Your portfolio should follow the design as closely as possible
+- Your portfolio should be responsive (it should look good on devices from 320px width up to 1600px)
+- Your portfolio should be following accessibility guidelines to ensure your website is usable by a diverse range of users:
+    - You should have a score of at least 95 in [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)
+    - All images should have alt attributes and proper sizes
+    - All contrasts should be OK
+- Follow the guidelines on [how to write good code](https://www.notion.so/Guidelines-for-how-to-write-good-code-59abdd4307a24f5ca7914d566326f4df?pvs=21)
+
+## Stretch goals
+
+### Intermediate stretch goals
+
+- Optimise your website for sharing on social media using og:tags.
 - Implement animation on scroll as present in the design for enhanced user experience.
+- Add a favicon
 
----
+### Advanced stretch goals
 
-### Concepts Applied
-
-Congratulations on completing Sprint 2 of the bootcamp! For the final phase, we will now take your skills in React to the next level by building your very own portfolio website using the concepts learned in class:
-
-1.  Components and Props:
-    - Utilise the concept of components to break down your website into reusable and manageable pieces.
-    - Pass data between components efficiently using props to ensure a structured and organised project.
-2.  React Hooks:
-    - Harness the power of React hooks, specifically the `useState` hook, to manage reactive data within your portfolio.
-    - Use `useState` to handle stateful data, making your website interactive and dynamic.
-3.  Web APIs and Data Integration:
-    - Implement hooks like useEffect to call specific Internal JSON objects containing info about your projects or use Github's free web API and fetch information for your projects.
-      - A. Creating Internal JSON FILE
-        - Consider establishing a `project.json` file that encompasses all pertinent details regarding your projects. This file can serve as a local database, holding various pieces of information like project names, descriptions, images, and links. Utilizing this file, you can employ fetch or import within your React component to access and display your project details on your website without requiring an external API call. Ensure that the JSON structure is consistent and easy to map through to extract and display the project details efficiently on your website.
-        - We have left you a sample json file called `projects.json` for you to review.
-      - B. Leveraging the GitHub API
-        - Utilise the GitHub API to fetch your public projects from your GitHub account.
-        - Use the following URL link [<https://api.github.com/users/YourGitHubProfile/repos>] as an example. Replace "YourGitHubProfile" with your actual GitHub profile name to fetch your repository data.
-        - [Open this link to see what the array of objects belonging to the Technigo Profile looks like from Github](https://api.github.com/users/Technigo/repos) 😉
-        - ⚠️ HINT ⚠️ - Leverage the GitHub API to fetch project descriptions dynamically, ensuring your portfolio stays up-to-date and reflects your latest work effortlessly. So remember to go back to each of your projects and fill out the description section of your repo.
-        - Parse the API response to extract relevant information about your projects, such as projects, project names, descriptions, and links.
-        - Display the fetched data dynamically on your portfolio website to showcase your GitHub projects alongside your other work.
-4.  Responsive Design and CSS:
-    - Utilise CSS Grid or Flexbox to create responsive layouts that adapt to various devices, including mobile, tablet, and desktop.
-    - Pay close attention to CSS styling and make your portfolio visually appealing.
-    - Consider utilising popular CSS frameworks like Tailwind CSS, Bootstrap, or Material-UI to streamline your styling process and create a consistent and professional-looking design.
-    - Leverage the power of pre-built components and utility classes offered by these frameworks to save development time and effort.
-    - Ensure that your CSS is well-organised and follows best practices to maintain a maintainable and scalable codebase.
-    - For easy animations, consider using [animate.css](https://animate.style/). It can be easily implemented in React and offers a variety of animations to enhance the user experience.
-5.  Accessibility and Usability:
-    - Follow accessibility guidelines to ensure your website is usable by a diverse range of users, including those with disabilities.
-6.  Commenting and Code Documentation:
-    - Use comments throughout your codebase effectively to explain complex logic and functionality.
-    - Document the purpose of components, functions, and hooks to aid your own understanding and for potential code review purposes.
-7.  Project Setup
-    - Remember to use Vite to set up your project quickly.
-    - `npm create vite@latest my-react-portfolio --template`
-8.  Deploy
-    - After completing your React portfolio project and pushing your code to GitHub, deploy your website to Netlify.
-
-Important Notes:
-
-- Demonstrate your proficiency in React by writing clean, efficient, and well-structured code.
-- Ensure your website is fully functional and all components work as intended.
-- Test your portfolio thoroughly to guarantee cross-browser compatibility and responsiveness.
-
-Submission:
-
-Once you complete the project, please provide the GitHub repository link containing your code. Additionally, include a live deployment link to showcase your portfolio to the world!
-
-Remember, the journey doesn't end here. Your portfolio will continue to evolve and grow as you progress in your coding journey. Embrace the challenge, and let your creativity shine! Happy coding!
+- Give your portfolio a custom domain and connect to your deployed site. [Read more](https://docs.netlify.com/domains-https/custom-domains/).
+- Utilise the GitHub API to fetch your public projects from your GitHub account, ensuring your portfolio stays up-to-date with your latest work.
+    - Use the following URL link [**https://api.github.com/users/YourGitHubProfile/repos**] as an example. Replace "YourGitHubProfile" with your actual GitHub profile name to fetch your repository data. Example: [Technigo GitHub profile](https://api.github.com/users/Technigo/repos)
