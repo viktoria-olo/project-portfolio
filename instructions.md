@@ -58,7 +58,7 @@ Make it super clear how a person can contact you. Again, add the social media li
 
 To use the icons from the design, simply mark the icon you want to export and save it as an SVG or copy the code and make it into a component.
 
-![ezgif.com-video-to-gif.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/5fa017c8-3fef-4115-8b2f-0177cad64ebc/454c9efe-8e85-4d1e-82d6-9e0192ddf7cb/ezgif.com-video-to-gif.gif)
+<img src="https://file.notion.so/f/f/5fa017c8-3fef-4115-8b2f-0177cad64ebc/454c9efe-8e85-4d1e-82d6-9e0192ddf7cb/ezgif.com-video-to-gif.gif?id=254d5f1b-7b4d-4be4-9b6c-5b4c58e34311&table=block&spaceId=5fa017c8-3fef-4115-8b2f-0177cad64ebc&expirationTimestamp=1711029600000&signature=oMN5Aa34q-2H8bPHYUxLiyG0ox4AwdT0bDz_hHoyjyg&downloadName=ezgif.com-video-to-gif.gif" alt="" />
 
 ## Requirements
 
