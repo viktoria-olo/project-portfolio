@@ -3,3 +3,10 @@
   height: 164px;
   border-radius: 164px;
 }
+
+.project-image {
+  width: 408px;
+  height: 280px;
+  border-bottom: 20px solid #0025ff;
+  border-left: 20px solid #0025ff;
+}
