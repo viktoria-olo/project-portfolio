@@ -1,11 +1,19 @@
 import { Headline } from "../components/Headline";
+import { Image } from "../components/Image";
+import "./Header.css";
+// import { Portrait_BW } from "../../public/images/Portrait_BW.png;
 
 export const Header = () => {
   return (
-    <div>
+    <div className="header-div">
+      <Image
+        className="profile-picture"
+        link="../../public/images/Portrait_BW.png"
+        altText="profile picture"
+      />
       <h2>Hi, I'm Viktoria Olofsson</h2>
-      <Headline headline="Frontend Developer" />
-      <img src="" alt="profile picture" />
+      <Headline colour="blue-text" headline="Frontend Developer" />
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

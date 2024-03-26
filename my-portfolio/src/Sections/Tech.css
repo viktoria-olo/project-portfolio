@@ -1,0 +1,8 @@
+.tech-div {
+  display: flex;
+  padding: 128px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}

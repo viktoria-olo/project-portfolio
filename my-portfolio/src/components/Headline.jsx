@@ -1,3 +1,5 @@
-export const Headline = ({ headline }) => {
-  return <h1>{headline}</h1>;
+import "./Headline.css";
+
+export const Headline = ({ colour, headline }) => {
+  return <h1 className={colour}>{headline}</h1>;
 };
