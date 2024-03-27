@@ -6,15 +6,15 @@ import "./ContactInfo.css";
 export const ContactInfo = () => {
   return (
     <div className="contact-div">
-      <Headline headline="Let's Talk" />
+      <Headline headlineStyle="section-headline" headline="Let's Talk" />
       <Image
         className="profile-picture"
         link="../../public/images/Portrait_BW.png"
         altText="profile picture"
       />
-      <p>Viktoria Olofsson</p>
-      <p>+46 (0)72 246 91 44</p>
-      <p>viktoriaolofsson@gmail.com</p>
+      <h2>Viktoria Olofsson</h2>
+      <h2>+46 (0)72 246 91 44</h2>
+      <h3>viktoriaolofsson@gmail.com</h3>
       <div>
         <Button
           icon="../../public/icons/linkedin.svg"

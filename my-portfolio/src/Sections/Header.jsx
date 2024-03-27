@@ -1,7 +1,6 @@
 import { Headline } from "../components/Headline";
 import { Image } from "../components/Image";
 import "./Header.css";
-// import { Portrait_BW } from "../../public/images/Portrait_BW.png;
 
 export const Header = () => {
   return (
@@ -12,7 +11,7 @@ export const Header = () => {
         altText="profile picture"
       />
       <h2>Hi, I'm Viktoria Olofsson</h2>
-      <Headline colour="blue-text" headline="Frontend Developer" />
+      <Headline headlineStyle="profile-headline" headline="Web Developer" />
 
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

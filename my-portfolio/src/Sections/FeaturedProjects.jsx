@@ -20,7 +20,7 @@ export const FeaturedProjects = () => {
 
   return (
     <section className="featured-projects-section">
-      <Headline colour="blue-text" headline="Featured Projects" />
+      <Headline headlineStyle="section-headline" headline="Featured Projects" />
       <ProjectCards projects={projects} />
     </section>
   );

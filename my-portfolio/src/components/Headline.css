@@ -1,7 +1,17 @@
-.blue-text {
-  color: blue;
+.profile-headline {
+  color: #0b24f5;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
 }
 
-.red-text {
-  color: red;
+.section-headline {
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

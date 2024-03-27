@@ -6,8 +6,9 @@ export const Button = ({ buttonStyle, icon, altText, link, buttonText }) => {
   };
 
   return (
-    <button className={buttonStyle}>
-      <img src={icon} alt={altText} onClick={handleClick} />{buttonText}
+    <button className={buttonStyle} onClick={handleClick}>
+      <img src={icon} alt={altText} />
+      {buttonText}
     </button>
   );
 };

@@ -1,8 +1,18 @@
-.tech-div {
+.tech-section {
   display: flex;
-  padding: 128px 16px;
+  padding: 80px 16px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 64px;
+  background-color: #0b24f5;
+  color: #fff;
+}
+
+.tech-section p {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Hind";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
