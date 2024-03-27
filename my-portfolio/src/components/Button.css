@@ -1,0 +1,44 @@
+button {
+  cursor: pointer;
+  border: none;
+}
+
+.project-btn {
+  display: inline-flex;
+  width: fit-content;
+  padding-right: 16px;
+  margin: 7px 0;
+  align-items: center;
+  border-radius: 40px;
+  background: #f5f5f5;
+  color: #333;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: filter 0.3s ease;
+}
+
+.project-btn img {
+  width: 48px;
+  height: 48px;
+}
+
+.live-demo-btn:hover {
+  background-color: #0025ff;
+  color: white;
+}
+
+.live-demo-btn:hover img {
+  filter: invert(1) brightness(2);
+}
+
+.view-code-btn:hover {
+  background-color: #eb5577;
+  color: white;
+}
+
+.view-code-btn:hover img {
+  filter: invert(1) brightness(2);
+}

@@ -1,5 +1,7 @@
 import { Button } from "./Button";
 import { Image } from "../components/Image";
+import { List } from "./List";
+import "./ProjectCards.css";
 
 export const ProjectCards = ({ projects }) => {
   const imageLinks = {
@@ -9,17 +11,11 @@ export const ProjectCards = ({ projects }) => {
     770952235: "../../public/images/survey-clipboard.jpg", // Survey
     763691885: "../../public/images/weather.jpg", // Weather App
   };
-  /*
-  <Button
-      icon="../../public/icons/Live-Demo-Button.svg"
-      altText="view the page"
-      link={netlifyLinks[project.id]}
-     />*/
 
   return (
     <>
       {projects && (
-        <div>
+        <div className="project-cards-div">
           {projects.map((project) => {
             if (
               project.id !== 756390333 &&
@@ -28,7 +24,7 @@ export const ProjectCards = ({ projects }) => {
               project.id !== 777377015
             ) {
               return (
-                <div key={project.id}>
+                <div className="project-card" key={project.id}>
                   <Image
                     className="project-image"
                     link={imageLinks[project.id]}
@@ -38,16 +34,20 @@ export const ProjectCards = ({ projects }) => {
                     {project.name.replace("project", "").replace(/-/g, " ")}
                   </h2>
                   <p>{project.description}</p>
-                  <p>{project.topics}</p>
+                  <List topics={project.topics} />
                   <Button
-                    icon="../../public/icons/View-Code-Button.svg"
-                    altText="view the code button"
-                    link={project.html_url}
+                    buttonStyle="project-btn live-demo-btn"
+                    icon="../../public/icons/Live-Demo.svg"
+                    altText="view the page button"
+                    link={project.homepage}
+                    buttonText="Live demo"
                   />
                   <Button
-                    icon="../../public/icons/Live-Demo-Button.svg"
-                    altText="view the page"
-                    link={project.homepage}
+                    buttonStyle="project-btn view-code-btn"
+                    icon="../../public/icons/github.svg"
+                    altText="view the code button"
+                    link={project.html_url}
+                    buttonText="View the code"
                   />
                 </div>
               );

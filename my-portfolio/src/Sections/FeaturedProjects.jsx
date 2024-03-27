@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Headline } from "../components/Headline";
-import "./FeaturedProjects.css";
 import { ProjectCards } from "../components/ProjectCards";
+import "./FeaturedProjects.css";
 
 export const FeaturedProjects = () => {
   const [projects, setProjects] = useState(null);
@@ -19,9 +19,9 @@ export const FeaturedProjects = () => {
   }, []);
 
   return (
-    <div className="featured-div">
+    <section className="featured-projects-section">
       <Headline colour="blue-text" headline="Featured Projects" />
       <ProjectCards projects={projects} />
-    </div>
+    </section>
   );
 };

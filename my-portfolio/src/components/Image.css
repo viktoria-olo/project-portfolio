@@ -5,8 +5,8 @@
 }
 
 .project-image {
-  width: 408px;
-  height: 280px;
-  border-bottom: 20px solid #0025ff;
-  border-left: 20px solid #0025ff;
+  height: 200px;
+  border-bottom: 10px solid #0025ff;
+  border-left: 10px solid #0025ff;
+  margin: 0;
 }
