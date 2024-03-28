@@ -1,10 +1,18 @@
-export const SkillList = ({ skillTitle, skills }) => {
+import { Headline } from "./Headline";
+import "./List.css";
+
+export const SkillList = ({ skillHeadline, skillTitle, skills }) => {
   return (
     <div>
-      <h3>{skillTitle}</h3>
-      {skills.map((skill, index) => (
-        <li key={index}>{skill}</li>
-      ))}
+      <Headline
+        headlineStyle={`skills-headline ${skillHeadline}`}
+        headline={skillTitle}
+      />
+      <ul className="skill-list">
+        {skills.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul>
     </div>
   );
 };

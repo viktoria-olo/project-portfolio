@@ -1,5 +1,5 @@
 import "./App.css";
-import { Home } from "./Sections/Home";
+import { Home } from "./sections/Home";
 
 export const App = () => {
   return (

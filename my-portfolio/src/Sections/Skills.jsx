@@ -21,15 +21,32 @@ export const Skills = () => {
     "Mob-programming",
     "Pair-programming",
     "Translation",
+    "Chinese (Mandarin)",
   ];
 
   return (
     <section className="skills-section">
       <Headline headlineStyle="section-headline" headline="Skills" />
-      <SkillList skillTitle="Code" skills={codeSkills} />
-      <SkillList skillTitle="Toolbox" skills={toolboxSkills} />
-      <SkillList skillTitle="Upcoming" skills={upcomingSkills} />
-      <SkillList skillTitle="More" skills={moreSkills} />
+      <SkillList
+        skillHeadline="code-headline"
+        skillTitle="Code"
+        skills={codeSkills}
+      />
+      <SkillList
+        skillHeadline="toolbox-headline"
+        skillTitle="Toolbox"
+        skills={toolboxSkills}
+      />
+      <SkillList
+        skillHeadline="upcoming-headline"
+        skillTitle="Upcoming"
+        skills={upcomingSkills}
+      />
+      <SkillList
+        skillHeadline="more-headline"
+        skillTitle="More"
+        skills={moreSkills}
+      />
     </section>
   );
 };
