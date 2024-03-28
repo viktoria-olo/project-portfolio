@@ -16,3 +16,11 @@
   font-weight: 600;
   line-height: normal;
 }
+
+.wavy-border {
+  position: relative;
+  background: url("/icons/wave.svg");
+  width: 100%;
+  height: 11px;
+  top: -5px;
+}

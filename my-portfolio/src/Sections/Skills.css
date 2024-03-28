@@ -12,19 +12,23 @@
 .code-headline {
   color: #fff;
   background-color: #eb5577;
+  margin: 0;
 }
 
 .toolbox-headline {
   color: #fff;
   background-color: #2483e0;
+  margin: 0;
 }
 
 .upcoming-headline {
   color: #fff;
   background-color: #6db486;
+  margin: 0;
 }
 
 .more-headline {
   color: #0b24f5;
   background-color: #ffde30;
+  margin: 0;
 }

@@ -1,7 +1,7 @@
 import { Button } from "./Button";
 import { Image } from "../components/Image";
 import { List } from "./List";
-import github from "/icons/github.svg";
+import githubDemo from "/icons/githubDemo.svg";
 import liveDemo from "/icons/liveDemo.svg";
 import "./ProjectCards.css";
 import repoImages from "../sections/repoImages.json";
@@ -42,7 +42,7 @@ export const ProjectCards = ({ projects }) => {
                   />
                   <Button
                     buttonStyle="project-btn view-code-btn"
-                    icon={github}
+                    icon={githubDemo}
                     altText="view the code button"
                     link={project.html_url}
                     buttonText="View the code"

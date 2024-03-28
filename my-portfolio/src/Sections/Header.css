@@ -28,3 +28,24 @@ h2 {
   font-weight: 400;
   line-height: normal;
 }
+
+.arrow-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 16px 16px 0 16px;
+  top: 0;
+  animation: arrowJump 1s infinite;
+}
+
+@keyframes arrowJump {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  25%,
+  75% {
+    transform: translateY(-10px);
+  }
+}

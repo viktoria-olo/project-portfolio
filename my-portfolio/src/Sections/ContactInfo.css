@@ -1,7 +1,26 @@
-.contact-div {
+.contact-section {
   display: flex;
-  padding: 128px 16px;
+  padding: 80px 16px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 64px;
+}
+
+.contact-section h1 {
+  color: #0b24f5;
+  margin: 0;
+}
+
+.contact-section h2,
+h3 {
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+.contact-btn-div {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
 }

@@ -28,6 +28,7 @@ button {
 .live-demo-btn:hover {
   background-color: #0025ff;
   color: white;
+  transition: 0.5s;
 }
 
 .live-demo-btn:hover img {
@@ -37,8 +38,19 @@ button {
 .view-code-btn:hover {
   background-color: #eb5577;
   color: white;
+  transition: 0.3s ease;
 }
 
 .view-code-btn:hover img {
   filter: invert(1) brightness(2);
+}
+
+.contact-btn {
+  background: transparent;
+  opacity: 0.3;
+}
+
+.contact-btn:hover {
+  opacity: 1;
+  transition: 0.5s ease;
 }

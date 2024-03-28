@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Headline } from "../components/Headline";
 import { ProjectCards } from "../components/ProjectCards";
+import wave from "/icons/wave.svg";
 import "./FeaturedProjects.css";
 
 export const FeaturedProjects = () => {

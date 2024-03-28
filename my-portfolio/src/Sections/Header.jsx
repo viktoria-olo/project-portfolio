@@ -1,5 +1,6 @@
 import { Headline } from "../components/Headline";
 import { Image } from "../components/Image";
+import arrow from "/icons/arrow.svg";
 import "./Header.css";
 
 export const Header = () => {
@@ -7,21 +8,22 @@ export const Header = () => {
     <div className="header-div">
       <Image
         className="profile-picture"
-        link="../../public/images/Portrait_BW.png"
+        link="/images/Portrait_BW.png"
         altText="profile picture"
       />
       <h2>Hi, I'm Viktoria Olofsson</h2>
       <Headline headlineStyle="profile-headline" headline="Web Developer" />
 
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Viktoria is a Front-End/Back-End Developer with a background in
+        translation. She creates user-friendly applications and solves complex
+        issues with ease. Her attention to detail, curiosity for learning new
+        things, and passion for solving puzzles make her a valuable asset to any
+        project.
       </p>
+      <div className="arrow-div">
+        <img src={arrow} alt="downward arrow" />
+      </div>
     </div>
   );
 };
