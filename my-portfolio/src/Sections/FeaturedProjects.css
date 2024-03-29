@@ -15,4 +15,10 @@
   line-height: 66px;
 }
 
-
+/***** Tablet *****/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .featured-projects-section {
+    align-items: flex-start;
+    padding: 128px 32px;
+  }
+}

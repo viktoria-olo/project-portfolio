@@ -10,7 +10,7 @@ export const ProjectCards = ({ projects }) => {
   return (
     <>
       {projects && (
-        <div className="project-cards-div">
+        <div>
           {projects.map((project) => {
             const repoImage = repoImages.find(
               (img) => img.repoID === project.id

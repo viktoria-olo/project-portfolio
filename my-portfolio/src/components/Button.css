@@ -23,6 +23,7 @@ button {
 .project-btn img {
   width: 48px;
   height: 48px;
+  margin-right: 8px;
 }
 
 .live-demo-btn:hover {

@@ -25,3 +25,11 @@
   width: fit-content;
   padding: 2px;
 }
+
+/***** Tablet *****/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .profile-headline {
+    font-size: 56px;
+    padding-bottom: 32px;
+  }
+}
