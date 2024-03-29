@@ -17,12 +17,13 @@
 }
 
 .skills-headline {
+  display: inline-block;
   font-family: "Montserrat";
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  width: fit-content;
+  text-align: center;
   padding: 2px;
 }
 

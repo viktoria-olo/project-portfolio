@@ -27,26 +27,19 @@ export const Skills = () => {
   return (
     <section className="skills-section">
       <Headline headlineStyle="section-headline" headline="Skills" />
+      <SkillList skillDiv="code" skillTitle="Code" skills={codeSkills} />
       <SkillList
-        skillHeadline="code-headline"
-        skillTitle="Code"
-        skills={codeSkills}
-      />
-      <SkillList
-        skillHeadline="toolbox-headline"
+        skillDiv="toolbox"
         skillTitle="Toolbox"
         skills={toolboxSkills}
       />
+
       <SkillList
-        skillHeadline="upcoming-headline"
+        skillDiv="upcoming"
         skillTitle="Upcoming"
         skills={upcomingSkills}
       />
-      <SkillList
-        skillHeadline="more-headline"
-        skillTitle="More"
-        skills={moreSkills}
-      />
+      <SkillList skillDiv="more" skillTitle="More" skills={moreSkills} />
     </section>
   );
 };

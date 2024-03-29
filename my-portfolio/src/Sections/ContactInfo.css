@@ -24,3 +24,10 @@ h3 {
   justify-content: center;
   gap: 32px;
 }
+
+/***** Tablet *****/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .contact-section h3 {
+    font-size: 24px;
+  }
+}

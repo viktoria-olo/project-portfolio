@@ -1,34 +1,80 @@
 .skills-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: #0b24f5;
   color: #fff;
-  text-align: center;
   padding: 80px 16px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  place-items: center;
+  grid-template-areas:
+    "headline"
+    "code"
+    "toolbox"
+    "upcoming"
+    "more";
 }
 
-.code-headline {
+.section-headling {
+  grid-area: headline;
+}
+
+.code {
+  grid-area: code;
+}
+
+.code h1 {
   color: #fff;
   background-color: #eb5577;
   margin: 0;
 }
 
-.toolbox-headline {
+.toolbox {
+  grid-area: toolbox;
+}
+
+.toolbox h1 {
   color: #fff;
   background-color: #2483e0;
   margin: 0;
 }
 
-.upcoming-headline {
+.upcoming {
+  grid-area: upcoming;
+}
+
+.upcoming h1 {
   color: #fff;
   background-color: #6db486;
   margin: 0;
 }
 
-.more-headline {
+.more {
+  grid-area: more;
+}
+
+.more h1 {
   color: #0b24f5;
   background-color: #ffde30;
   margin: 0;
+}
+
+/***** Tablet *****/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .skills-section {
+    grid-template-areas:
+      "header header"
+      "code toolbox"
+      "upcoming more";
+    align-items: baseline;
+    text-align: left;
+    gap: 64px;
+    padding: 128px 32px 148px 32px;
+  }
+
+  .section-headline {
+    grid-column: 1 / span 2;
+    text-align: center;
+    margin: 0;
+  }
 }
