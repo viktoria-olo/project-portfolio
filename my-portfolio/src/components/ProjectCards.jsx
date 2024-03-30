@@ -33,20 +33,22 @@ export const ProjectCards = ({ projects }) => {
                   </h2>
                   <p>{project.description}</p>
                   <List topics={project.topics} />
-                  <Button
-                    buttonStyle="project-btn live-demo-btn"
-                    icon={liveDemo}
-                    altText="view the page button"
-                    link={project.homepage}
-                    buttonText="Live demo"
-                  />
-                  <Button
-                    buttonStyle="project-btn view-code-btn"
-                    icon={githubDemo}
-                    altText="view the code button"
-                    link={project.html_url}
-                    buttonText="View the code"
-                  />
+                  <div className="btn-div">
+                    <Button
+                      buttonStyle="project-btn live-demo-btn"
+                      icon={liveDemo}
+                      altText="view the page button"
+                      link={project.homepage}
+                      buttonText="Live demo"
+                    />
+                    <Button
+                      buttonStyle="project-btn view-code-btn"
+                      icon={githubDemo}
+                      altText="view the code button"
+                      link={project.html_url}
+                      buttonText="View the code"
+                    />
+                  </div>
                 </div>
               );
             }

@@ -17,14 +17,14 @@ footer {
 
 .rolling-text {
   white-space: nowrap;
-  animation: 20s slide infinite linear;
+  animation: 100s slide infinite linear;
 }
 
 @keyframes slide {
   from {
-    transform: translateX(250%);
+    transform: translateX(100%);
   }
   to {
-    transform: translateX(-250%);
+    transform: translateX(-100%);
   }
 }
