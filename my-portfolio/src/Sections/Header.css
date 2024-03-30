@@ -88,4 +88,20 @@ h2 {
 
 /***** Desktop *****/
 @media (min-width: 1024px) {
+  .header-div {
+    padding: 200px 161px 80px 161px;
+    grid-template-areas:
+      "hello-message hello-message "
+      "headline headline "
+      "image profile-text "
+      "arrow arrow ";
+    gap: 0 22px;
+  }
+
+  .header-div h2 {
+    font-size: 32px;
+  }
+  .arrow-div {
+    padding: 200px 32px 0px 32px;
+  }
 }

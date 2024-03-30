@@ -32,3 +32,17 @@
     padding: 256px 126px;
   }
 }
+
+/***** Desktop *****/
+@media (min-width: 1024px) {
+  .tech-section {
+    flex-direction: row;
+    height: 980px;
+    padding: 0px 234px;
+    gap: 124px;
+  }
+
+  .tech-section p {
+    font-size: 32px;
+  }
+}

@@ -8,10 +8,8 @@
 .featured-projects-section h1 {
   color: #0b24f5;
   text-align: center;
-  font-family: Montserrat;
-  font-size: 56px;
   font-style: normal;
-  font-weight: 700;
+
   line-height: 66px;
 }
 
@@ -20,5 +18,13 @@
   .featured-projects-section {
     align-items: flex-start;
     padding: 128px 32px;
+  }
+}
+
+/***** Desktop *****/
+@media (min-width: 1024px) {
+  .featured-projects-section {
+    align-items: flex-start;
+    padding: 128px 161px 124px 161px;
   }
 }

@@ -69,11 +69,31 @@
     align-items: baseline;
     text-align: left;
     gap: 64px;
-    padding: 128px 32px 148px 32px;
+    padding: 128px 32px;
   }
 
   .section-headline {
     grid-column: 1 / span 2;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+/***** Desktop *****/
+@media (min-width: 1024px) {
+  .skills-section {
+    grid-template-areas:
+      "header header header header"
+      "code toolbox upcoming more";
+    align-items: baseline;
+    text-align: left;
+    row-gap: 128px;
+    column-gap: 80px;
+    padding: 128px 161px;
+  }
+
+  .section-headline {
+    grid-column: 1 / span 4;
     text-align: center;
     margin: 0;
   }

@@ -34,3 +34,16 @@
     padding-bottom: 32px;
   }
 }
+
+/***** Desktop *****/
+@media (min-width: 1024px) {
+  .profile-headline {
+    font-size: 80px;
+    padding-bottom: 16px;
+  }
+
+  .section-headline {
+    font-size: 80px;
+    font-weight: 700;
+  }
+}
