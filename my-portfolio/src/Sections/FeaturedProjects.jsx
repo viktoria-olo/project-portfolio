@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { Headline } from "../components/Headline";
-import { ProjectCards } from "../components/ProjectCards";
+import { Headline } from "../components/Headline/Headline";
+import { ProjectCards } from "../components/ProjectCards/ProjectCards";
 import "./FeaturedProjects.css";
 
 export const FeaturedProjects = () => {

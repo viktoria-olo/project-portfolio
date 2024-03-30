@@ -1,6 +1,6 @@
-import { Headline } from "../components/Headline";
-import { Image } from "../components/Image";
-import { Button } from "../components/Button";
+import { Headline } from "../components/Headline/Headline";
+import { Image } from "../components/Image/Image";
+import { Button } from "../components/Button/Button";
 import linkedin from "/icons/linkedin.svg";
 import github from "/icons/github.svg";
 import stackOverflow from "/icons/stackOverflow.svg";

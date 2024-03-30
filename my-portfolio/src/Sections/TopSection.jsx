@@ -1,9 +1,9 @@
-import { Headline } from "../components/Headline";
-import { Image } from "../components/Image";
+import { Headline } from "../components/Headline/Headline";
+import { Image } from "../components/Image/Image";
 import arrow from "/icons/arrow.svg";
-import "./Header.css";
+import "./TopSection.css";
 
-export const Header = () => {
+export const TopSection = () => {
   return (
     <div className="header-div">
       <Image

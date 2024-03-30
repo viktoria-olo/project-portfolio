@@ -4,8 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #0b24f5;
-  color: #fff;
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 .tech-section p {

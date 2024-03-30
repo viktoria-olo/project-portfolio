@@ -6,8 +6,8 @@
 
 .project-image {
   width: 100%;
-  border-bottom: 10px solid #0025ff;
-  border-left: 10px solid #0025ff;
+  border-bottom: 10px solid var(--blue);
+  border-left: 10px solid var(--blue);
   margin: 0 0 24px 0;
 }
 

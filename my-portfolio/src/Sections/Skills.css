@@ -1,6 +1,6 @@
 .skills-section {
-  background-color: #0b24f5;
-  color: #fff;
+  background-color: var(--blue);
+  color: var(--white);
   padding: 80px 16px;
   display: grid;
   justify-content: center;
@@ -24,8 +24,8 @@
 }
 
 .code h1 {
-  color: #fff;
-  background-color: #eb5577;
+  color: var(--white);
+  background-color: var(--pink);
   margin: 0;
 }
 
@@ -35,7 +35,7 @@
 
 .toolbox h1 {
   color: #fff;
-  background-color: #2483e0;
+  background-color: var(--jeans);
   margin: 0;
 }
 
@@ -45,7 +45,7 @@
 
 .upcoming h1 {
   color: #fff;
-  background-color: #6db486;
+  background-color: var(--lilac);
   margin: 0;
 }
 
@@ -54,8 +54,8 @@
 }
 
 .more h1 {
-  color: #0b24f5;
-  background-color: #ffde30;
+  color: var(--blue);
+  background-color: var(--yellow);
   margin: 0;
 }
 

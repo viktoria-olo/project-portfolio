@@ -16,14 +16,12 @@
 }
 
 .project-card h2 {
-  font-family: "Montserrat";
   font-size: 24px;
   padding: 0;
   grid-area: project-title;
 }
 
 .project-card p {
-  font-family: "Hind";
   font-size: 18px;
   margin: 16px 0;
   grid-area: description;

@@ -1,4 +1,4 @@
-import { Headline } from "../components/Headline";
+import { Headline } from "../components/Headline/Headline";
 import "./Tech.css";
 
 export const Tech = () => {

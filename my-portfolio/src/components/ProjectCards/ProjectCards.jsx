@@ -1,10 +1,10 @@
-import { Button } from "./Button";
-import { Image } from "../components/Image";
-import { List } from "./List";
+import { Button } from "../Button/Button";
+import { Image } from "../Image/Image";
+import { List } from "../List/List";
 import githubDemo from "/icons/githubDemo.svg";
 import liveDemo from "/icons/liveDemo.svg";
 import "./ProjectCards.css";
-import repoImages from "../sections/repoImages.json";
+import repoImages from "../../sections/repoImages.json";
 
 export const ProjectCards = ({ projects }) => {
   return (
@@ -32,7 +32,7 @@ export const ProjectCards = ({ projects }) => {
                     {project.name.replace("project", "").replace(/-/g, " ")}
                   </h2>
                   <p>{project.description}</p>
-                  <List topics={project.topics} />
+                  <List listStyle="topics" listItems={project.topics} />
                   <div className="btn-div">
                     <Button
                       buttonStyle="project-btn live-demo-btn"

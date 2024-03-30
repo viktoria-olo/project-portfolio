@@ -4,8 +4,11 @@ export const Footer = () => {
   return (
     <footer>
       <div className="rolling-text">
-        Viktoria Olofsson · Web Developer · Viktoria Olofsson · Web Developer ·
-        Viktoria Olofsson · Web Developer · Viktoria Olofsson · Web Developer ·
+        <h3>
+          Viktoria Olofsson · Web Developer · Viktoria Olofsson · Web Developer
+          · Viktoria Olofsson · Web Developer · Viktoria Olofsson · Web
+          Developer ·
+        </h3>
       </div>
     </footer>
   );

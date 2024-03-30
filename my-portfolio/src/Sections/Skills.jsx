@@ -1,4 +1,4 @@
-import { Headline } from "../components/Headline";
+import { Headline } from "../components/Headline/Headline";
 import { SkillList } from "../components/SkillList";
 import "./Skills.css";
 
@@ -33,7 +33,6 @@ export const Skills = () => {
         skillTitle="Toolbox"
         skills={toolboxSkills}
       />
-
       <SkillList
         skillDiv="upcoming"
         skillTitle="Upcoming"

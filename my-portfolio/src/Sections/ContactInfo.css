@@ -8,7 +8,7 @@
 }
 
 .contact-section h1 {
-  color: #0b24f5;
+  color: var(--blue);
   margin: 0;
 }
 
