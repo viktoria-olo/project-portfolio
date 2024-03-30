@@ -26,7 +26,7 @@ button {
 }
 
 .live-demo-btn:hover {
-  background-color: var(--btn-blue);
+  background-color: var(--blue);
   color: var(--white);
   transition: 0.5s;
 }

@@ -4,9 +4,18 @@
   </a>
 </h1>
 
-# Technigo - React Portfolio Project
+# React Portfolio Project
 
-Congratulations on completing Sprint 2 of the boot camp! For the final phase, we will now take your skills in React to the next level by building your very own portfolio website using the concepts learned in class
+In this week's project was to build a personal portfolio website using React. 
+
+### The Problem
+
+I started out by mapping out what reusable and sectional components would be needed. For the featured projects section, I implemented the GitHub API fetch, and filtered out the ones I did not want featured. More components were added along the way, as I realised it would make the design more streamlined.
+
+If I had more time, I would have liked to try out more of the stretch goals.
+
+### View it live
+
 
 ## Instructions
 [Check this projects instructions here](https://github.com/Technigo/project-portfolio/blob/main/instructions.md)
