@@ -8,7 +8,7 @@ import repoImages from "../../sections/repoImages.json";
 
 export const ProjectCards = ({ projects }) => {
   return (
-    <>
+    <div className="projects-div">
       {projects && (
         <div>
           {projects.map((project) => {
@@ -56,6 +56,6 @@ export const ProjectCards = ({ projects }) => {
           })}
         </div>
       )}
-    </>
+    </div>
   );
 };

@@ -1,6 +1,6 @@
 .project-card {
   display: grid;
-  margin: 64px 0 0 0;
+  margin: 0 0 64px 0;
   max-width: 325px;
   grid-template-areas:
     "image"

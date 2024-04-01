@@ -1,7 +1,6 @@
 .profile-headline {
   color: var(--blue);
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
   margin: 0;
 }
@@ -9,17 +8,13 @@
 .section-headline {
   text-align: center;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
 }
 
 .skills-headline {
   display: inline-block;
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
   text-align: center;
   padding: 2px;
 }

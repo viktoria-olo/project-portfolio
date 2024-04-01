@@ -27,9 +27,7 @@ h2 {
 .header-div p {
   font-family: "Hind";
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   margin: 8p 0x;
   grid-area: profile-text;
 }
