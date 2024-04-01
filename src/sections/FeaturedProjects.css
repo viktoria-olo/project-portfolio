@@ -1,7 +1,7 @@
 .featured-projects-section {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 80px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .featured-projects-section h1 {
@@ -9,11 +9,6 @@
   text-align: center;
   line-height: 66px;
   margin-bottom: 80px;
-  grid-column: 1 / span 4;
-}
-
-.projects-div {
-  grid-column: 1 / span 4;
 }
 
 /***** Tablet *****/
