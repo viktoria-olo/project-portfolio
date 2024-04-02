@@ -6,8 +6,9 @@ button {
 .project-btn {
   display: inline-flex;
   width: fit-content;
+  padding: 0;
   padding-right: 16px;
-  margin: 7px 0;
+  margin: 0;
   align-items: center;
   border-radius: 40px;
   background: var(--white);
@@ -20,7 +21,7 @@ button {
 .project-btn img {
   width: 48px;
   height: 48px;
-  margin-right: 8px;
+  margin-right: 7px;
 }
 
 .live-demo-btn:hover {
@@ -46,6 +47,8 @@ button {
 .contact-btn {
   background: transparent;
   opacity: 0.3;
+  padding: 0;
+  margin: 0;
 }
 
 .contact-btn:hover {

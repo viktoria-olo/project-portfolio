@@ -8,9 +8,9 @@ import repoImages from "../../sections/repoImages.json";
 
 export const ProjectCards = ({ projects }) => {
   return (
-    <div className="projects-div">
+    <div>
       {projects && (
-        <div>
+        <div className="projects-div">
           {projects.map((project) => {
             const repoImage = repoImages.find(
               (img) => img.repoID === project.id

@@ -1,6 +1,11 @@
+.projects-div {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
 .project-card {
   display: grid;
-  margin: 0 0 64px 0;
   max-width: 325px;
   grid-template-areas:
     "image"
@@ -34,6 +39,7 @@
 .btn-div {
   display: flex;
   flex-direction: column;
+  gap: 16px;
   grid-area: btn-div;
 }
 
@@ -76,6 +82,10 @@
 
   .project-card h2 {
     font-size: 32px;
+  }
+
+  .projects-div {
+    gap: 128px;
   }
 
   .btn-div {

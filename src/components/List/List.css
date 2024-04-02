@@ -19,8 +19,7 @@
 .skill-list {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 64px;
-  margin-top: 16px;
+  margin: 0;
 }
 
 .skill-list li {

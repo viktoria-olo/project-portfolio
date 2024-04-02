@@ -18,8 +18,8 @@ export const TopSection = () => {
         Viktoria is a Front-End/Back-End Developer with a background in
         translation. She creates user-friendly applications and solves complex
         issues with ease. Her attention to detail, curiosity for learning new
-        things, and passion for solving puzzles make her a valuable asset to any
-        project.
+        things, and passion for solving puzzles make her a valuable asset to
+        any project.
       </p>
       <div className="arrow-div">
         <img src={arrow} alt="downward arrow" />

@@ -27,5 +27,7 @@
     height: 100%;
     object-fit: cover;
     margin-bottom: 0;
+    border-bottom: 20px solid var(--blue);
+    border-left: 20px solid var(--blue);
   }
 }

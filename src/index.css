@@ -17,11 +17,14 @@
   --jeans: #3652ad;
   --lilac: #720455;
   --btn-pink: #eb5577;
-
 }
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
 }
 
 h1,

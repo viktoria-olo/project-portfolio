@@ -1,5 +1,6 @@
 .header-div {
   display: grid;
+  margin: 0;
   padding: 64px 16px;
   grid-template-areas:
     "image"
@@ -28,7 +29,7 @@ h2 {
   font-family: "Hind";
   font-size: 18px;
   font-weight: 400;
-  margin: 8p 0x;
+  margin: 32px 0 32px 0;
   grid-area: profile-text;
 }
 
@@ -65,40 +66,53 @@ h2 {
 /***** Tablet *****/
 @media (min-width: 768px) and (max-width: 1023px) {
   .header-div {
-    padding: 128px 32px 32px 32px;
+    padding: 128px 32px 0 32px;
     grid-template-areas:
       "hello-message hello-message "
       "headline headline "
       "image profile-text "
       "arrow arrow ";
     gap: 0 22px;
+    align-items: center;
   }
-}
+  .header-div h2 {
+    font-size: 24px;
+  }
 
-.header-div h2 {
-  font-size: 24px;
-}
-
-.arrow-div {
-  padding: 128px 32px 0px 32px;
+  .header-div p {
+    margin: 0;
+  }
+  .arrow-div {
+    padding-top: 138px;
+    padding-bottom: 32px;
+  }
 }
 
 /***** Desktop *****/
 @media (min-width: 1024px) {
   .header-div {
-    padding: 200px 161px 80px 161px;
+    padding: 332px 161px 0 161px;
     grid-template-areas:
       "hello-message hello-message "
       "headline headline "
       "image profile-text "
       "arrow arrow ";
     gap: 0 22px;
+    align-items: center;
   }
 
   .header-div h2 {
     font-size: 32px;
   }
   .arrow-div {
-    padding: 200px 32px 0px 32px;
+    padding-top: 200px;
+    padding-bottom: 63px;
+  }
+}
+
+/***** Widescreen Desktop *****/
+@media (min-width: 1441px) {
+  .header-div {
+    padding: 332px 234px 0 234px;
   }
 }
