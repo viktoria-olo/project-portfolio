@@ -19,7 +19,8 @@ export const ProjectCards = ({ projects }) => {
               project.id !== 756390333 &&
               project.id !== 749447525 &&
               project.id !== 752195534 &&
-              project.id !== 777377015
+              project.id !== 777377015 &&
+              project.id !== 780928545
             ) {
               return (
                 <div className="project-card" key={project.id}>
