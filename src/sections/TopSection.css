@@ -64,7 +64,7 @@ h2 {
 }
 
 /***** Tablet *****/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 745px) and (max-width: 1023px) {
   .header-div {
     padding: 128px 32px 0 32px;
     grid-template-areas:
@@ -82,6 +82,11 @@ h2 {
   .header-div p {
     margin: 0;
   }
+
+  .profile-headline {
+    padding-bottom: 32px;
+  }
+
   .arrow-div {
     padding-top: 138px;
     padding-bottom: 32px;

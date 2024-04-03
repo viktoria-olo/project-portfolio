@@ -24,11 +24,15 @@
 }
 
 /***** Tablet *****/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 745px) and (max-width: 1023px) {
   .tech-section {
     text-align: center;
     padding: 256px 32px;
     gap: 64px;
+  }
+
+  .tech-section p {
+    padding: 0 50px;
   }
 }
 

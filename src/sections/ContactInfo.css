@@ -27,7 +27,7 @@ h3 {
 }
 
 /***** Tablet *****/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 745px) and (max-width: 1023px) {
   .contact-section {
     padding: 128px 32px;
   }

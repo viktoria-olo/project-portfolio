@@ -67,7 +67,7 @@
 }
 
 /***** Tablet *****/
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 745px) and (max-width: 1023px) {
   .skills-section {
     grid-template-areas:
       "headline headline"
