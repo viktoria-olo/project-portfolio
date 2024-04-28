@@ -8,13 +8,14 @@ export const Skills = () => {
     "CSS3",
     "JavaScript",
     "React",
-    "Styled Components",
+    "Tailwind CSS",
     "GitHub",
+    "React Router"
   ];
 
   const toolboxSkills = ["Figma", "Slack", "Lighthouse"];
 
-  const upcomingSkills = ["Mongo DB", "Express", "React Router"];
+  const upcomingSkills = ["Mongo DB", "Express"];
 
   const moreSkills = [
     "Agile methodology",

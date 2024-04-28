@@ -18,7 +18,7 @@ footer h3 {
 
 .rolling-text {
   white-space: nowrap;
-  animation: 100s slide infinite linear;
+  animation: 70s slide infinite linear;
 }
 
 @keyframes slide {

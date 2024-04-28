@@ -33,12 +33,6 @@ export const ContactInfo = () => {
           altText="GitHub logo"
           link="https://github.com/viktoria-olo"
         />
-        <Button
-          buttonStyle="contact-btn"
-          icon={stackOverflow}
-          altText="Stack Overflow icon"
-          link="https://stackoverflow.com/users/23123189/vik"
-        />
       </div>
     </section>
   );
