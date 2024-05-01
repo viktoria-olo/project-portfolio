@@ -43,5 +43,10 @@
     "altText": "design handoff project image",
     "repoID": 790728213,
     "imageUrl": "/images/oasis.png"
+  },
+  {
+    "altText": "express api project image",
+    "repoID": 794163575,
+    "imageUrl": "/images/computer.jpg"
   }
 ]
