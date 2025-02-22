@@ -52,16 +52,16 @@
   {
     "altText": "OMC book club image",
     "repoID": 806987371,
-    "imageUrl": "/image/bookclub.jpg"
+    "imageUrl": "/images/bookclub.jpg"
   },
   {
     "altText": "happy thoughts api image",
     "repoID": 799580747,
-    "imageUrl": "/image/thoughts-api.jpg"
+    "imageUrl": "/images/thoughts-api.jpg"
   },
   {
     "altText": "netflix titles api image",
     "repoID": 796296849,
-    "imageUrl": "/image/netflix-titles.jpg"
+    "imageUrl": "/images/netflix-titles.jpg"
   }
 ]
