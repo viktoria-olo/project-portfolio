@@ -48,5 +48,20 @@
     "altText": "express api project image",
     "repoID": 794163575,
     "imageUrl": "/images/computer.jpg"
+  },
+  {
+    "altText": "OMC book club image",
+    "repoID": 806987371,
+    "imageUrl": "/image/bookclub.jpg"
+  },
+  {
+    "altText": "happy thoughts api image",
+    "repoID": 799580747,
+    "imageUrl": "/image/thoughts-api.jpg"
+  },
+  {
+    "altText": "netflix titles api image",
+    "repoID": 796296849,
+    "imageUrl": "/image/netflix-titles.jpg"
   }
 ]
