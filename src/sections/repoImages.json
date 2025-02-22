@@ -54,12 +54,7 @@
     "repoID": 806987371,
     "imageUrl": "/images/bookclub.jpg"
   },
-  {
-    "altText": "happy thoughts api image",
-    "repoID": 799580747,
-    "imageUrl": "/images/thoughts-api.jpg"
-  },
-  {
+    {
     "altText": "netflix titles api image",
     "repoID": 796296849,
     "imageUrl": "/images/netflix-titles.jpg"
